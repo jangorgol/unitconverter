@@ -13,8 +13,7 @@ const revertConvertVolume = 1 / convertVolume
 const convertMass = 2.204
 const revertConvertMass = 1 / convertMass
 const inputValue = document.getElementById("input-value")
-
-addEventListener.inputValue("click", convert())
+const convertBtn = document.getElementById("convert-btn").addEventListener("click", convert);
     
 
 function convert(){
