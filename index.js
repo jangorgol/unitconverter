@@ -14,6 +14,9 @@ const convertMass = 2.204
 const revertConvertMass = 1 / convertMass
 const inputValue = document.getElementById("input-value")
 
+addEventListener.inputValue("click"){
+    convert()
+}
 
 function convert(){
     let value = parseFloat(inputValue.value)
